@@ -32,7 +32,7 @@ int main() {
     cout << endl;
 
     string ticker;
-    cout << "Enter symbol: (e.g USDZAR=X or NVDA)";
+    cout << "Enter symbol(e.g USDZAR=X or NVDA): ";
     cin >> ticker;
 
     find_symbol(ticker);
